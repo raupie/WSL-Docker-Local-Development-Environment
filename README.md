@@ -39,8 +39,6 @@ Enable Hyper-V
 ---
 # Scripts
 
-The following bash scripts will automate the installation process of Docker and ezlaunchpad. 
-
 Launch WSL bash and run the following commands:
 
 * Install Docker and Docker Compose
@@ -49,7 +47,7 @@ Launch WSL bash and run the following commands:
   * curl https://gitlab.com/snippets/1686704/raw | bash
 * Install ezlaunchpad with dependencies
   * curl https://gitlab.com/snippets/1683062/raw | bash
-* Add custom docker aliases
+* Add custom docker aliases (OPTIONAL)
   * curl -s https://gitlab.com/snippets/1683063/raw > ~/.bash_aliases && source ~/.bashrc
 
 
