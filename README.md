@@ -31,8 +31,6 @@ Enable Hyper-V
   * Add `Ubuntu` shortcut to Start Menu (Pin to Start)
 
 * Windows (1703)
-  * Open PowerShell as Administrator and run: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-  * Restart your computer
   * Run cmd
      * lxrun /install /y
      * lxrun /uninstall /full /y (NOTE: start fresh)
