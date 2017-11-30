@@ -42,13 +42,13 @@ Enable Hyper-V
 Launch WSL bash and run the following commands:
 
 * Install Docker and Docker Compose
-  * bash -c "$(curl -s [https://gitlab.com/snippets/1683061/raw](https://gitlab.com/snippets/1683061/raw))" && source ~/.bashrc
+  * bash -c "$(curl -s [https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/docker-installation.bash](https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/docker-installation.bash))" && source ~/.bashrc
 * Install Docker-Sync + Unison
-  * curl https://gitlab.com/snippets/1686704/raw | bash
+  * curl https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/docker-sync-installation.bash | bash
 * Install ezlaunchpad with dependencies
-  * curl https://gitlab.com/snippets/1683062/raw | bash
+  * curl https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/ezlaunchpad-install.bash | bash
 * Add custom docker aliases (OPTIONAL)
-  * curl -s https://gitlab.com/snippets/1683063/raw > ~/.bash_aliases && source ~/.bashrc
+  * curl -s https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/custom-docker-alias.txt > ~/.bash_aliases && source ~/.bashrc
 
 
 
