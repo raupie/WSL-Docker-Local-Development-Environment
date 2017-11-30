@@ -46,7 +46,7 @@ Launch WSL bash and run the following commands:
 * Install Docker-Sync + Unison
   * curl https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/docker-sync-installation.bash | bash
 * Install ezlaunchpad with dependencies
-  * curl https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/ezlaunchpad-install.bash | bash
+  * curl https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/ezlaunchpad-installation.bash | bash
 * Add custom docker aliases (OPTIONAL)
   * curl -s https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/custom-docker-alias.txt > ~/.bash_aliases && source ~/.bashrc
 
