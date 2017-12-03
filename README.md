@@ -41,6 +41,8 @@ Enable Hyper-V
 
 Launch WSL bash and run the following commands:
 
+NOTE: Update the ubuntu shell properties to allow `insert mode`
+
 * Install Docker and Docker Compose
   * bash -c "$(curl -s [https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/docker-installation.bash](https://raw.githubusercontent.com/raupie/Local-Development-Environment/master/docker-installation.bash))" && source ~/.bashrc
 * Install Docker-Sync + Unison
