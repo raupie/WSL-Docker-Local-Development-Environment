@@ -2,7 +2,7 @@
 # ezlaunchpad installation + dependencies
 
 # Install PHP
-sudo apt-get install -y php php-cli php-curl
+sudo apt-get install -y php php-cli php-curl php-mbstring php-xml php-dom php-simplexml
 
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
