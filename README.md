@@ -18,13 +18,12 @@ Enable Hyper-V
 ---
 # GIT
 
-* Configure git configuration for EOL preferences
-  * edit .gitconfig in your Windows user folder.
-    ```
-    [core]
+* Modify git EOL settings by editing the .gitconfig in your Windows user folder.
+```
+[core]
 	autocrlf = false
 	eol = lf
-    ```
+```
 
 ---	
 # WSL
