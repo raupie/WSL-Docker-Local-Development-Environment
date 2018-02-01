@@ -15,6 +15,13 @@ Enable Hyper-V
 * Create a new Windows Firewall rule for port 2375
   * Open PowerShell as Administrator and run: `New-NetFirewallRule -DisplayName "Docker for Windows TCP" -Action Block -Direction Inbound -EdgeTraversalPolicy Block -Enabled True -LocalPort 2375 -Protocol TCP`
 
+---
+#GIT
+
+* Configure git configuration for EOL preferences
+  * `git config core.eol lf`
+  * `git config core.autocrlf input`
+
 ---	
 # WSL
 
