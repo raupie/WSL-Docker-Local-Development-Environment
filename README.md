@@ -19,9 +19,11 @@ Enable Hyper-V
 # GIT
 
 * Configure git configuration for EOL preferences
-  * `git config core.eol lf`
-  * `git config core.autocrlf input`
-  * GitKraken: Preferences -> General -> Uncheck AutoCRLF
+  * git
+    * `git config core.eol lf`
+    * `git config core.autocrlf input`
+  * GitKraken
+    * Preferences -> General -> Uncheck AutoCRLF
 
 ---	
 # WSL
