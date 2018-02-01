@@ -16,7 +16,7 @@ Enable Hyper-V
   * Open PowerShell as Administrator and run: `New-NetFirewallRule -DisplayName "Docker for Windows TCP" -Action Block -Direction Inbound -EdgeTraversalPolicy Block -Enabled True -LocalPort 2375 -Protocol TCP`
 
 ---
-#GIT
+# GIT
 
 * Configure git configuration for EOL preferences
   * `git config core.eol lf`
