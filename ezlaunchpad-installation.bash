@@ -10,6 +10,4 @@ sudo mv composer.phar /usr/local/bin/composer
 
 # Download + Install ezlaunchpad
 curl -LSs https://ezsystems.github.io/launchpad/install_curl.bash | bash
-mv .ezlaunchpad /usr/local/bin/.ezlaunchpad
-ln -sf /usr/local/bin/.ezlaunchpad/ez.phar ez
 mv ez /usr/local/bin
